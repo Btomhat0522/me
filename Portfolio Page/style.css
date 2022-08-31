@@ -1,0 +1,96 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(./fonts/static/Montserrat-Medium.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-Light;
+    src: url(./fonts/static/Montserrat-Light.ttf);
+}
+
+@font-face {
+    font-family: Raleway-Medium;
+    src: url(./fonts/static/Raleway-Medium.ttf);
+}
+
+body {
+    background-color: #E9ECEF;
+}
+
+.intro {
+    background-color: #ADB5BD;
+    min-height: auto;
+    padding-bottom: 20px;
+    
+}
+
+.name {
+    margin: 0;
+    padding-top: 20px;
+    padding-left: 10px;
+    font-family: Montserrat;
+    font-size: 50px;
+}
+
+.title {
+    margin: 0;
+    padding-top: 5px;
+    padding-left: 10px;
+    font-family: Montserrat-Light;
+    font-size: 30px;
+}
+
+.description {
+    font-family: Montserrat-Light;
+    font-size: 25px;
+    
+}
+
+.profilePic {
+    display: inline-block;
+    height:250px;
+    width: auto;
+    position: absolute;
+    top: 89px;
+    right: 15vw;
+    overflow: hidden;
+}
+
+.bodyText { 
+    background-color: #CED4DA;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 30% 30%;
+    grid-template-rows: 15% 50% 50%;
+    grid-column-gap: 20%;
+ 
+}
+
+.item1 {
+    grid-row-start:    1;
+    grid-row-end:      2;
+    grid-column-start: 1;
+    grid-column-end:   2;
+    
+}
+
+.item2 {
+    grid-row-start:    2;
+    grid-row-end:      3;
+    grid-column-start: 1;
+    grid-column-end:   2;
+}
+
+.item3 {
+    grid-row-start:    1;
+    grid-row-end:      2;
+    grid-column-start: 2;
+    grid-column-end:   3;
+}
+
+.item4 {
+    grid-row-start:    2;
+    grid-row-end:      3;
+    grid-column-start: 2;
+    grid-column-end:   3;
+}
